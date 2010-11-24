@@ -71,7 +71,7 @@ gpgcheck=0
 
 EUCA_REPO_CONF_EOF
 
-    rpm -Uvh 'http://download.fedora.redhat.com/pub/epel/5/i386/epel-release-5-4.noarch.rpm'	
+    #rpm -Uvh 'http://download.fedora.redhat.com/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm'	
     yum -y  install dnsmasq  vblade kpartx kvm gawk iptables ebtables  bzr screen euca2ools  curl rabbitmq-server gcc gcc-c++ autoconf automake swig  openldap openldap-servers nginx  python26 python26-devel python26-distribute git openssl-devel  python26-tools mysql-server qemu kmod-kvm libxml2 libxslt libxslt-devel mysql-devel gnutls gnutls-devel
     wget -c http://sourceforge.net/projects/aoetools/files/aoetools/32/aoetools-32.tar.gz/download
     tar -zxvf aoetools-32.tar.gz
