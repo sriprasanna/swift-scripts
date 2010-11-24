@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 mkdir install && cd install
 yum -y install curl gcc memcached sqlite3 xfsprogs python-setuptools python-devel python-simplejson python-configobj python-nose
 mkdir packages && cd packages
