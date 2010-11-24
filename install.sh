@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+rpm -Uvh http://download.fedora.redhat.com/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm
 mkdir install && cd install
 yum -y update
 yum -y install curl gcc memcached sqlite3 xfsprogs python-setuptools python-devel python-simplejson python-configobj python-nose bzr bzrtools bzr-gtk olive
