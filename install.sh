@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 mkdir install && cd install
-yum -y install curl gcc memcached sqlite3 xfsprogs python-setuptools python-devel python-simplejson python-configobj python-nose
+yum -y update
+yum -y install curl gcc memcached sqlite3 xfsprogs python-setuptools python-devel python-simplejson python-configobj python-nose bzr bzrtools bzr-gtk olive
 mkdir packages && cd packages
 wget http://pypi.python.org/packages/source/W/WebOb/WebOb-0.9.8.tar.gz -O WebOb.tar.gz
 tar xvfz WebOb.tar.gz
